@@ -28,3 +28,6 @@ Files provided through the tutorial starter project have a corresponding license
 ## Acknowledgments
 Some of the files/samples are provided as part of the starter project by Apple Inc.
 The tutorial can be found [here](https://developer.apple.com/tutorials/app-dev-training)
+
+## Contact
+If you have any questions and want to get in touch with me, just [send me an email](mailto:iimpaq@proton.me)
