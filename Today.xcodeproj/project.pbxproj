@@ -13,6 +13,10 @@
 		2C44C31F2AADD92A00B3BBD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C44C31D2AADD92A00B3BBD2 /* Main.storyboard */; };
 		2C44C3212AADD92C00B3BBD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C44C3202AADD92C00B3BBD2 /* Assets.xcassets */; };
 		2C44C3242AADD92C00B3BBD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C44C3222AADD92C00B3BBD2 /* LaunchScreen.storyboard */; };
+		2C44C32E2AADDAD200B3BBD2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2C44C32B2AADDAD000B3BBD2 /* README.md */; };
+		2C44C32F2AADDAD200B3BBD2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2C44C32C2AADDAD100B3BBD2 /* .gitignore */; };
+		2C44C3302AADDAD200B3BBD2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2C44C32D2AADDAD100B3BBD2 /* LICENSE */; };
+		2C44C3322AADDBDD00B3BBD2 /* 3RD-PARTY-LICENSES in Resources */ = {isa = PBXBuildFile; fileRef = 2C44C3312AADDBDD00B3BBD2 /* 3RD-PARTY-LICENSES */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		2C44C3202AADD92C00B3BBD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C44C3232AADD92C00B3BBD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C44C3252AADD92C00B3BBD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C44C32B2AADDAD000B3BBD2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2C44C32C2AADDAD100B3BBD2 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		2C44C32D2AADDAD100B3BBD2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2C44C3312AADDBDD00B3BBD2 /* 3RD-PARTY-LICENSES */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "3RD-PARTY-LICENSES"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,10 @@
 		2C44C30B2AADD92900B3BBD2 = {
 			isa = PBXGroup;
 			children = (
+				2C44C3312AADDBDD00B3BBD2 /* 3RD-PARTY-LICENSES */,
+				2C44C32C2AADDAD100B3BBD2 /* .gitignore */,
+				2C44C32D2AADDAD100B3BBD2 /* LICENSE */,
+				2C44C32B2AADDAD000B3BBD2 /* README.md */,
 				2C44C3162AADD92A00B3BBD2 /* Today */,
 				2C44C3152AADD92A00B3BBD2 /* Products */,
 			);
@@ -125,8 +137,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C44C3302AADDAD200B3BBD2 /* LICENSE in Resources */,
+				2C44C3322AADDBDD00B3BBD2 /* 3RD-PARTY-LICENSES in Resources */,
+				2C44C32F2AADDAD200B3BBD2 /* .gitignore in Resources */,
 				2C44C3242AADD92C00B3BBD2 /* LaunchScreen.storyboard in Resources */,
 				2C44C3212AADD92C00B3BBD2 /* Assets.xcassets in Resources */,
+				2C44C32E2AADDAD200B3BBD2 /* README.md in Resources */,
 				2C44C31F2AADD92A00B3BBD2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
