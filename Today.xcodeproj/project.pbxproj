@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2C44C3182AADD92A00B3BBD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C44C3172AADD92A00B3BBD2 /* AppDelegate.swift */; };
 		2C44C31A2AADD92A00B3BBD2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C44C3192AADD92A00B3BBD2 /* SceneDelegate.swift */; };
-		2C44C31C2AADD92A00B3BBD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C44C31B2AADD92A00B3BBD2 /* ViewController.swift */; };
+		2C44C31C2AADD92A00B3BBD2 /* ReminderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C44C31B2AADD92A00B3BBD2 /* ReminderListViewController.swift */; };
 		2C44C31F2AADD92A00B3BBD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C44C31D2AADD92A00B3BBD2 /* Main.storyboard */; };
 		2C44C3212AADD92C00B3BBD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C44C3202AADD92C00B3BBD2 /* Assets.xcassets */; };
 		2C44C3242AADD92C00B3BBD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C44C3222AADD92C00B3BBD2 /* LaunchScreen.storyboard */; };
@@ -17,13 +17,14 @@
 		2C44C32F2AADDAD200B3BBD2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2C44C32C2AADDAD100B3BBD2 /* .gitignore */; };
 		2C44C3302AADDAD200B3BBD2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2C44C32D2AADDAD100B3BBD2 /* LICENSE */; };
 		2C44C3322AADDBDD00B3BBD2 /* 3RD-PARTY-LICENSES in Resources */ = {isa = PBXBuildFile; fileRef = 2C44C3312AADDBDD00B3BBD2 /* 3RD-PARTY-LICENSES */; };
+		2C44C3352AADDD3800B3BBD2 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C44C3342AADDD3800B3BBD2 /* Reminder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C44C3142AADD92A00B3BBD2 /* Today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Today.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C44C3172AADD92A00B3BBD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C44C3192AADD92A00B3BBD2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2C44C31B2AADD92A00B3BBD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C44C31B2AADD92A00B3BBD2 /* ReminderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListViewController.swift; sourceTree = "<group>"; };
 		2C44C31E2AADD92A00B3BBD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C44C3202AADD92C00B3BBD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C44C3232AADD92C00B3BBD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -32,6 +33,7 @@
 		2C44C32C2AADDAD100B3BBD2 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		2C44C32D2AADDAD100B3BBD2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2C44C3312AADDBDD00B3BBD2 /* 3RD-PARTY-LICENSES */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "3RD-PARTY-LICENSES"; sourceTree = "<group>"; };
+		2C44C3342AADDD3800B3BBD2 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,15 +70,24 @@
 		2C44C3162AADD92A00B3BBD2 /* Today */ = {
 			isa = PBXGroup;
 			children = (
+				2C44C3332AADDD1800B3BBD2 /* Models */,
 				2C44C3172AADD92A00B3BBD2 /* AppDelegate.swift */,
 				2C44C3192AADD92A00B3BBD2 /* SceneDelegate.swift */,
-				2C44C31B2AADD92A00B3BBD2 /* ViewController.swift */,
+				2C44C31B2AADD92A00B3BBD2 /* ReminderListViewController.swift */,
 				2C44C31D2AADD92A00B3BBD2 /* Main.storyboard */,
 				2C44C3202AADD92C00B3BBD2 /* Assets.xcassets */,
 				2C44C3222AADD92C00B3BBD2 /* LaunchScreen.storyboard */,
 				2C44C3252AADD92C00B3BBD2 /* Info.plist */,
 			);
 			path = Today;
+			sourceTree = "<group>";
+		};
+		2C44C3332AADDD1800B3BBD2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2C44C3342AADDD3800B3BBD2 /* Reminder.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,9 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C44C31C2AADD92A00B3BBD2 /* ViewController.swift in Sources */,
+				2C44C31C2AADD92A00B3BBD2 /* ReminderListViewController.swift in Sources */,
 				2C44C3182AADD92A00B3BBD2 /* AppDelegate.swift in Sources */,
 				2C44C31A2AADD92A00B3BBD2 /* SceneDelegate.swift in Sources */,
+				2C44C3352AADDD3800B3BBD2 /* Reminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
