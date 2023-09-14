@@ -22,6 +22,7 @@
 		2C412D822AB21FB000F5C318 /* TextViewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C412D812AB21FB000F5C318 /* TextViewContentView.swift */; };
 		2C412D842AB220DD00F5C318 /* DatePickerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C412D832AB220DD00F5C318 /* DatePickerContentView.swift */; };
 		2C412D862AB23A0B00F5C318 /* ReminderListStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C412D852AB23A0B00F5C318 /* ReminderListStyle.swift */; };
+		2C412D882AB2413000F5C318 /* ProgressHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C412D872AB2413000F5C318 /* ProgressHeaderView.swift */; };
 		2C44C3182AADD92A00B3BBD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C44C3172AADD92A00B3BBD2 /* AppDelegate.swift */; };
 		2C44C31A2AADD92A00B3BBD2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C44C3192AADD92A00B3BBD2 /* SceneDelegate.swift */; };
 		2C44C31C2AADD92A00B3BBD2 /* ReminderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C44C31B2AADD92A00B3BBD2 /* ReminderListViewController.swift */; };
@@ -51,6 +52,7 @@
 		2C412D812AB21FB000F5C318 /* TextViewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewContentView.swift; sourceTree = "<group>"; };
 		2C412D832AB220DD00F5C318 /* DatePickerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerContentView.swift; sourceTree = "<group>"; };
 		2C412D852AB23A0B00F5C318 /* ReminderListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListStyle.swift; sourceTree = "<group>"; };
+		2C412D872AB2413000F5C318 /* ProgressHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHeaderView.swift; sourceTree = "<group>"; };
 		2C44C3142AADD92A00B3BBD2 /* Today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Today.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C44C3172AADD92A00B3BBD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C44C3192AADD92A00B3BBD2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				2C2A58CC2AB06C3F002521AC /* ReminderListViewController+DataSource.swift */,
 				2C2A58D02AB093DD002521AC /* ReminderDoneButton.swift */,
 				2C2A58D22AB0948E002521AC /* ReminderListViewController+Actions.swift */,
+				2C412D872AB2413000F5C318 /* ProgressHeaderView.swift */,
 			);
 			path = ListViewController;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C412D882AB2413000F5C318 /* ProgressHeaderView.swift in Sources */,
 				2C2A58DF2AB1A4DE002521AC /* UIView+PinnedSubview.swift in Sources */,
 				2C2A58DA2AB0C8F9002521AC /* ReminderViewController+Section.swift in Sources */,
 				2C412D842AB220DD00F5C318 /* DatePickerContentView.swift in Sources */,
